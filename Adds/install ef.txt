@@ -1,0 +1,37 @@
+Nuget Package Manager:
+    Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 2.1.0-rc1-final
+    Install-Package Microsoft.EntityFrameworkCore.Tools -Version 2.1.0-rc1-final
+    Install-Package Microsoft.EntityFrameworkCore.Proxies -Version 2.1.0-rc1-final
+
+New class (in dbModel folder):
+    public class MoviesContext : DbContext
+    {
+        public MoviesContext(DbContextOptions<MoviesContext> options)
+            : base(options)
+        { }
+
+        public DbSet<Movie> Movies { get; set; }
+    }
+
+In Startup.cs:
+    using MoviesAPI.DbModels;
+    using Microsoft.EntityFrameworkCore;
+
+In Startup.cs ConfigureServices(..) method:
+
+    var connection = @"Server=.\SQLEXPRESS;Database=SharpDev2018Urz1;Trusted_Connection=True;ConnectRetryCount=0";
+    services.AddDbContext<MoviesContext>(options => options
+                    .UseLazyLoadingProxies()
+                    .UseSqlServer(connection));
+
+In Startup.cs ConfigureServices(..) method:
+zamieniæ:
+    services.AddSingleton<IMoviesService, MoviesService>();
+    servces.AddSingleton<IReviewsService, ReviewsService>()
+na:
+    services.AddScoped<IMoviesService, MoviesService>();
+    services.AddScoped<IReviewsService, ReviewsService>();
+
+Nuget Package Manager:
+Add-Migration InitialCreate
+Update-Database
