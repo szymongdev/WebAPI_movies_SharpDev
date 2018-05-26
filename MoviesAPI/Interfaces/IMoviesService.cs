@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using MoviesAPI.DbModels;
+using Newtonsoft.Json.Linq;
 
 namespace MoviesAPI.Interfaces
 {
@@ -25,5 +26,9 @@ namespace MoviesAPI.Interfaces
         void AddMovieToActor(int movieId, int actorId);
 
         List<Movie> GetMoviesByActorId(int actorId);
+
+        Task<List<JObject>> GetPopularMoviesAsync();
+
+        void AddPopular();
     }
 }

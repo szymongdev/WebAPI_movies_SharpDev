@@ -161,7 +161,26 @@ namespace MoviesAPI.Controllers
             }
         }
 
-        
+        /// <summary>
+        /// Add top 10 movies from trakt.tv
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("popularMovies")]
+        public IActionResult AddPopularMovies()
+        {
+            try
+            {
+                _moviesService.AddPopular();
+                return Ok();
+            }
+            catch
+            {
+                return NotFound();
+            }
+
+        }
+
+
 
         /// <summary>
         /// Update movie in repositorium
@@ -187,8 +206,15 @@ namespace MoviesAPI.Controllers
         [HttpDelete("{movieId}")]
         public IActionResult Delete(int movieId)
         {
-            _moviesService.Remove(movieId);
-            return Ok();
+            try
+            {
+                _moviesService.Remove(movieId);
+                return Ok();
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
     }
 }

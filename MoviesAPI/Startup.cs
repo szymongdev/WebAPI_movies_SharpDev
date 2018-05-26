@@ -34,7 +34,7 @@ namespace MoviesAPI
             services.AddScoped<IReviewsService, ReviewsService>();
             services.AddScoped<IActorsService, ActorsService>();
 
-            var connection = @"Server=.\SQLEXPRESS;Database=SharpDev2018Urz1;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=.\SQLEXPRESS;Database=SharpDev2018Urz_v1.0;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<MoviesContext>(options => options
                             .UseLazyLoadingProxies()
                             .UseSqlServer(connection));

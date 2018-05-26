@@ -1,0 +1,24 @@
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.xml
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.deps.json
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.runtimeconfig.json
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.runtimeconfig.dev.json
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.dll
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.pdb
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.csprojAssemblyReference.cache
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.csproj.CoreCompileInputs.cache
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.AssemblyInfoInputs.cache
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.AssemblyInfo.cs
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.dll
+C:\Users\Szymon\Desktop\SharpDev WebAPI\WebAPI_movies_SharpDev-master\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.pdb
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.xml
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.deps.json
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.runtimeconfig.json
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.runtimeconfig.dev.json
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.dll
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\bin\Debug\netcoreapp2.0\MoviesAPI.pdb
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.csprojAssemblyReference.cache
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.csproj.CoreCompileInputs.cache
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.AssemblyInfoInputs.cache
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.AssemblyInfo.cs
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.dll
+C:\Users\Szymon\Desktop\WebAPI_movies\MoviesAPI\obj\Debug\netcoreapp2.0\MoviesAPI.pdb

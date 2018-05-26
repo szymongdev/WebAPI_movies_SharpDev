@@ -55,10 +55,8 @@ namespace MoviesAPI.Services
 
         public void AddActorToMovie(int actorId, int movieId)
         {
-            {
-                _moviesContext.MovieActors.Add(new MovieActor { ActorId = actorId, MovieId = movieId});
-                _moviesContext.SaveChanges();
-            }
+            _moviesContext.MovieActors.Add(new MovieActor { ActorId = actorId, MovieId = movieId});
+            _moviesContext.SaveChanges();
         }
 
         public bool UpdateActor(Actor actor)
